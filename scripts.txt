@@ -1,0 +1,14 @@
+#!/bin/bash
+HOST='your.ftp.site'
+USER='remoteusername'
+PASSWD='remotepasswd'
+
+ftp -n -v $HOST << EOT
+ascii
+user $USER $PASSWD
+prompt
+cd upload
+ls -la
+bye
+EOT
+
