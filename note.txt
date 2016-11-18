@@ -1,4 +1,5 @@
 git - source control
 selenium - browser automation
 sonarcube - code quality
+jenkins: release management
 
